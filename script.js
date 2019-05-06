@@ -50,10 +50,10 @@ submit.addEventListener('click', function () {
       question.classList.add('error');
     }
     if (name.value === '') {
-      getAnswer.innerHTML = 'хто ти?';
+      getAnswer.innerHTML = 'who are you?';
     }
     if (question.value === '') {
-      getAnswer.innerHTML = 'запитай мене';
+      getAnswer.innerHTML = 'ask me';
     } 
   }
   setData(tasks);
