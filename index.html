@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Magic ball</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="bg-lightl-904.jpg" bgproperties="fixed" class="background"><br>
+  <h1>MAGIC BALL</h1>
+  <div class="row">
+    <div class="col-6 col-md-4">
+      <div class="ball">
+    <img id="ball" src="ball.png">
+    <p id="getAnswer">answer <br> there</p>
+  </div>
+    </div>
+  </div>
+  
+  <form onsubmit="return false">
+    <div class="form-group-1">
+      <label for="task">Name</label>
+      <input type="text" class="form-control-1" id="name" placeholder="   Enter your Name" onclick="removeError(this)">
+    </div>
+    <div class="form-group-2">
+      <label for="question">Question</label>
+      <input type="text" class="form-control-2" id="question" placeholder="   Enter the Answer"
+        onclick="removeError(this)"><br><br>
+    </div class="button">
+    <button type="submit" id="submit" class="questionButton">Get the Answer</button>
+    </div>
+  </form>
+
+  <table class="table_dark" id="table">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Question</th>
+      <th scope="col">Answer</th>
+    </tr>
+
+    <tbody id="tbody">
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

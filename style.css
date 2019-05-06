@@ -1,0 +1,116 @@
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #454545;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dedede;
+  text-align: center;
+}
+
+.background {
+  height: 1000px;
+  background-color: #dedede;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 250%;
+}
+
+.ball {
+  position: relative;
+  }
+
+.ball img{
+  width: 35%;
+  max-width: 35%;
+  }
+
+#getAnswer {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 11%;
+  font-size: 150%;
+}
+
+.questionButton {
+  font-family: sans-serif;
+  border: 1px solid #666;
+  background: -moz-linear-gradient(#000, #ffffff);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#b41fe0), to(#a1a6ec));
+  color: #d0e3fc;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: .5em 1em;
+  width: 80%;
+  max-width: 15em;
+  margin-top: 1em;
+}
+
+.form-group-1 {
+  font-family: fantasy;
+  font-size: 120%;
+  text-align: left; 
+  color: #454545;
+  margin-left: 10%;
+  background-color: #dedede;
+  display:inline;
+}
+
+.form-group-2 {
+  font-family: fantasy;
+  font-size: 120%;
+  text-align: left; 
+  color: #454545;
+  margin-left: 20%;
+  margin-right: 18%;
+  background-color: #dedede;
+  display:inline;
+}
+
+.form-control-1 {
+  font-family: Tahoma, sans-serif;
+  height: 26px;
+  width: 160px;
+  border-radius: 10px; 
+}
+
+.form-control-2 {
+  font-family: Tahoma, sans-serif;
+  height: 26px;
+  width: 300px;
+  border-radius: 10px; 
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.table_dark {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+  width: 90%;
+  text-align: left;
+  border-collapse: collapse;
+  background: #b41fe0;
+  margin: 70px;
+}
+.table_dark th {
+  color: #d0e3fc;
+  border-bottom: 1px solid #000000;
+  padding: 12px 17px;
+}
+
+.table_dark td {
+  color: #CAD4D6;
+  border-bottom: 1px solid #000000;
+  border-right:1px solid #000000;
+  padding: 7px 17px;
+}
